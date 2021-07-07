@@ -41,7 +41,6 @@ describe 'Transfer' do
 
       expect(amanda).to receive(:valid?).and_return(true)
       expect(avi).to receive(:valid?).and_return(true)
-
       transfer.valid?
     end
   end
